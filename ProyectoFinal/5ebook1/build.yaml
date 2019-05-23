@@ -1,0 +1,12 @@
+pandoc_common:
+  input_files:
+  - titulo.md
+  - 01-Cap1Forma/Hangul.markdown
+  - 02-Consonantes/Consonantes.markdown
+  - 03-Vocales/Vocales.markdown
+  - 04-EsImportanteSaber/Final.markdown
+pandoc_targets:
+  EPUB:
+    options: -t epub -o 5ebook1.epub
+css:
+  - estilo.css
